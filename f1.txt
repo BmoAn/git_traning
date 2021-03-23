@@ -1,2 +1,2 @@
 how to make file and write
-'vim filename'
+'vim filename change'
