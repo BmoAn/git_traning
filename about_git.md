@@ -1,4 +1,4 @@
-From youtube channel '생활코딩' git from the hell (1~10)
+From youtube channel '생활코딩' git from the hell
 
 pwd : 현재 내가 위치한 디렉토리를 알려줌
 
@@ -42,5 +42,6 @@ git diff 'commit id1'..'commit id2' : 두 commit 사이의 차이점을 출력�
 
 git clone 'url' 'dir name want to make' : github에서 fork 후 관련 자료를 자신의 로컬 디렉토리에 저장함
 
+git clone 'url' . : 별도의 디렉토리를 선정하지 않고 현 위치에 clone
 
-
+git commit -am 'write something' : add와 commit을 한번에 진행함. 주의할 점은 새로운 파일이 아니라 한 번 이상 commit 된 파일에 한해서만 가능!
