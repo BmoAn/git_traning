@@ -34,9 +34,13 @@ git log -p : 모든 commit과 commit 사이 달라진 점을 표시해줌! (어�
 
 git log 'commit id' : 해당 commit 이전의 commit만 출력
 
+git log --reverse : log의 출력 순서를 반대로!
+
 git diff : 현재 실시한 작업이 이전 commit과 어떻게 다른지 출력
 
 git diff 'commit id1'..'commit id2' : 두 commit 사이의 차이점을 출력해줌 
+
+git clone 'url' 'dir name want to make' : github에서 fork 후 관련 자료를 자신의 로컬 디렉토리에 저장함
 
 
 
