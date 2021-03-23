@@ -42,5 +42,5 @@ git diff 'commit id1'..'commit id2' : 두 commit 사이의 차이점을 출력�
 
 git clone 'url' 'dir name want to make' : github에서 fork 후 관련 자료를 자신의 로컬 디렉토리에 저장함
 
-
+git clone 'url' . : 별도의 디렉토리를 선정하지 않고 현 위치에 clone
 
