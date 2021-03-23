@@ -1,2 +1,3 @@
 how to make file and write
 'vim filename change'
+it's another version of f1
