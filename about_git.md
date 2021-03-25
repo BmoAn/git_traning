@@ -45,3 +45,5 @@ git clone 'url' 'dir name want to make' : github에서 fork 후 관련 자료를
 git clone 'url' . : 별도의 디렉토리를 선정하지 않고 현 위치에 clone
 
 git commit -am 'write something' : add와 commit을 한번에 진행함. 주의할 점은 새로운 파일이 아니라 한 번 이상 commit 된 파일에 한해서만 가능!
+
+git reset 'commit id' --hard : log에서 commit id를 확인한 뒤 이 명령어를 사용하면 해당 commit 시점으로 복귀!
