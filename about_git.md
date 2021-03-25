@@ -12,6 +12,7 @@ ls -al : 현재 위치한 폴더 하위의 파일 및 폴더를 보여줌
 cat 'file name' : 파일의 내용을 출력함
 
 cp 'existing file name' 'new name want to make' : 현재 존재하는 파일을 복사하여 이름만 다른 새로운 파일을 생성함
+-> copy를 활용하더라도 내용이 같으면 같은 위치에 저장됨.(같은 내용의 중복 저장을 피하기 위함)
 
 ---
 ## git을 활용하기 위한 명령어
@@ -64,3 +65,22 @@ git commit -m 'message' : 별도의 에디터 실행 없이 메세지를 입력�
 
 git commit -am 'message' : -a와 -m옵션 동시에 실행함
 #### 주의할 점 : 새로운 파일이 아니라 한 번 이상 commit 된 파일에 한해서만 이 옵션 사용 가능?
+
+## About 'branch'
+git brach : 현재 사용하고 있는 branch를 보여줌
+
+git branch 'name' : 새로운 'name'의 branch가 생성됨 -> 원 위치의 branch와 내부 구성이 동일함
+
+git checkout 'branch name' : 입력한 브랜치로 변경
+
+git log --branches --decorate --graph --oneline
+ -- branches : 현재 위치한 branch 외의 다른 branch도 표시
+ -- decorate : 각 branch별 최신 commit 표시?
+ -- graph : 그림 형태로 branch 분기 시각화
+ -- oneline : 간단하게 한줄로 분기를 시각화해줌
+ 
+ git log 'branch name 1'..'branch name 2' : branch 1에는 없고 branch 2에는 있는것 -> 두 branch의 입력 순서를 달리하면 출력 결과가 달라짐 
+ 
+ git log -p 'branch name 1'..'branch name 2' : branch 1에는 없고 branch 2에는 있는것을 정확한 소스코드까지 알고싶을 때
+ 
+git diff 'branch name 1'..'branch name 2' : branch 1에는 없고 branch 2에는 있는 두 branch사이의 차이를 알고싶을 때
