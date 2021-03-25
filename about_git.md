@@ -46,4 +46,11 @@ git clone 'url' . : 별도의 디렉토리를 선정하지 않고 현 위치에 
 
 git commit -am 'write something' : add와 commit을 한번에 진행함. 주의할 점은 새로운 파일이 아니라 한 번 이상 commit 된 파일에 한해서만 가능!
 
-git reset 'commit id' --hard : log에서 commit id를 확인한 뒤 이 명령어를 사용하면 해당 commit 시점으로 복귀!
+git reset 'commit id' --hard: log에서 commit id를 확인한 뒤 이 명령어를 사용하면 해당 commit 시점으로 복귀!
+ # revert도 있으니 나중에 추가로 공부합시다! reset과 revert보다는 commit들간의 차이를 확인하는게 더 중요
+
+git commit -a : 수정된 파일을 add 후 commit
+
+git commit -m 'message' : 별도의 에디터 실행 없이 메세지를 입력함
+
+git commit -am 'message' : -a와 -m옵션 동시에 실행함
