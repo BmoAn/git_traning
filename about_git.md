@@ -84,3 +84,7 @@ git log --branches --decorate --graph --oneline
  git log -p 'branch name 1'..'branch name 2' : branch 1에는 없고 branch 2에는 있는것을 정확한 소스코드까지 알고싶을 때
  
 git diff 'branch name 1'..'branch name 2' : branch 1에는 없고 branch 2에는 있는 두 branch사이의 차이를 알고싶을 때
+
+git merge 'branch name2' : 현재 위치한 branch에 branch name2의 commit을 병합함
+
+gir branch -d 'branch name' :사용하지 않는 branch를 제거하는 
