@@ -1,6 +1,5 @@
-## From youtube channel '생활코딩' git from the hell
----
-### 파일 및 폴더 조작을 위한 명령어
+## 😈git from the hell😈 __ From Youtube channel '생활코딩'
+## 파일 및 폴더 조작을 위한 명령어
 
 pwd : 현재 내가 위치한 디렉토리의 주소를 알려줌
 
@@ -15,7 +14,7 @@ cat 'file name' : 파일의 내용을 출력함
 cp 'existing file name' 'new name want to make' : 현재 존재하는 파일을 복사하여 이름만 다른 새로운 파일을 생성함
 
 ---
-### git을 활용하기 위한 명령어
+## git을 활용하기 위한 명령어
 
 git init : git을 사용하기 위한 폴더를 지정 (.git 이라는 디렉토리가 생성됨)
 
@@ -29,7 +28,7 @@ git status : 현재 폴더의 관리 상태를 보여주는 명령어
 
 ---
 
-### About 'add'
+## About 'add'
 vim 'file name want to make' : vim 을 활용하여 파일 생성 및 내용 수정 -> 현재 존재하는 파일 이름을 입력할 경우 파일 내용 수정할 떄 사용
 -> 입력모드로 바꿀때는 'i' 모드를 종료할떄는 'esc' 내용을 저장하고 vim에서 나갈때는 ':wq'를 입력
 
